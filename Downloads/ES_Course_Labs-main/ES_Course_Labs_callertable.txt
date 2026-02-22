@@ -1,0 +1,11 @@
+main
+	LED_Init
+		GPIO_SetPinDirection
+	SWITCH_Init
+		GPIO_SetPinDirection
+	SWITCH_STATE
+		GPIO_GetPinValue
+	LED_On
+		GPIO_SetPinValue
+	LED_Off
+		GPIO_SetPinValue
